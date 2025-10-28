@@ -1,0 +1,32 @@
+h1{
+    font-style: normal;
+    
+}
+
+h1::first-letter{
+    color:red;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+*{
+    background-color:aquamarine;
+}
+
+button{
+    color: black;
+    background-color:blanchedalmond;
+}
+
+
+
+button:hover{
+     color: brown;
+     background-color:violet
+}
+button::selection{
+    color: aquamarine;
+}
